@@ -1,7 +1,4 @@
 <<<<<<< HEAD:portfolio-details.php
-<?php
-  $id = trim($_REQUEST['id']);
-?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -44,18 +41,13 @@
 
           <div class="col-lg-8">
             <h2 class="portfolio-title">
-              <?php
-                if($id == 1){
-                  echo 'Calculation';
-                }
-              ?>
             </h2>
 
             <div class="portfolio-details-slider swiper">
               <div class="swiper-wrapper align-items-center">
 
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/portfolio-details-<?=$id?>.jpg" alt="Photo <?=$id?>">
+                  <img src="assets/img/portfolio/portfolio-details-1.jpg" alt="Photo 1">
                 </div>
 
               </div>
@@ -63,9 +55,6 @@
             </div>
 
           </div>
-          <?php
-            if($id == 1){            
-          ?>
           <div class="col-lg-4 portfolio-info">
             <h3>Project information</h3>
             <ul>
@@ -80,12 +69,9 @@
             </p>
 
             <div class="qr">
-              <img src="assets/img/qr/qr-<?=$id?>.png" alt="Scan to Download">
+              <img src="assets/img/qr/qr-1.3png" alt="Scan to Download">
             </div>
           </div>
-          <?php
-            }
-          ?>
 
         </div>
 
@@ -113,9 +99,6 @@
 </body>
 
 =======
-<?php
-  $id = trim($_REQUEST['id']);
-?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -157,19 +140,13 @@
         <div class="row">
 
           <div class="col-lg-8">
-            <h2 class="portfolio-title">
-              <?php
-                if($id == 1){
-                  echo 'Calculation';
-                }
-              ?>
-            </h2>
+            <h2 class="portfolio-title"></h2>
 
             <div class="portfolio-details-slider swiper">
               <div class="swiper-wrapper align-items-center">
 
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/portfolio-details-<?=$id?>.jpg" alt="Photo <?=$id?>">
+                  <img src="assets/img/portfolio/portfolio-details-1.jpg" alt="Photo <?=$id?>">
                 </div>
 
               </div>
@@ -177,9 +154,6 @@
             </div>
 
           </div>
-          <?php
-            if($id == 1){            
-          ?>
           <div class="col-lg-4 portfolio-info">
             <h3>Project information</h3>
             <ul>
@@ -194,12 +168,9 @@
             </p>
 
             <div class="qr">
-              <img src="assets/img/qr/qr-<?=$id?>.png" alt="Scan to Download">
+              <img src="assets/img/qr/qr-1.png" alt="Scan to Download">
             </div>
           </div>
-          <?php
-            }
-          ?>
 
         </div>
 
