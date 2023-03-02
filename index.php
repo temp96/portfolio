@@ -27,12 +27,6 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: Personal - v4.10.0
-  * Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
@@ -41,9 +35,9 @@
   <header id="header">
     <div class="container">
 
-      <h1><a href="index.html">Thane Papadopoulos</a></h1>
+      <h1><a href="index.php">Thane Papadopoulos</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
+      <!-- <a href="index.php" class="mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
       <h2>I'm a passionate <span>Full Stack Web Engineer</span> from Thessaloniki</h2>
 
       <nav id="navbar" class="navbar">
@@ -51,10 +45,8 @@
           <li><a class="nav-link active" href="#header">Home</a></li>
           <li><a class="nav-link" href="#about">About</a></li>
           <li><a class="nav-link" href="#resume">Resume</a></li>
-          <!--
           <li><a class="nav-link" href="#services">Services</a></li>
           <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
-          -->
           <li><a class="nav-link" href="#contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -410,7 +402,7 @@
     <div class="skills container">
 
       <div class="section-title">
-        <h2>Web development</h2>
+        <h2>Design/Development</h2>
       </div>
 
       <div class="row skills-content">
@@ -418,14 +410,21 @@
         <div class="col-lg-6">
 
           <div class="progress">
-            <span class="skill">WordPress/CMS <i class="val">80%</i></span>
+            <span class="skill">Adobe Premiere <i class="val">90%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">Adobe After Effect<i class="val">80%</i></span>
             <div class="progress-bar-wrap">
               <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
           </div>
 
           <div class="progress">
-            <span class="skill">Photoshop <i class="val">55%</i></span>
+            <span class="skill">Adobe Photoshop <i class="val">55%</i></span>
             <div class="progress-bar-wrap">
               <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
@@ -452,9 +451,23 @@
             </div>
           </div>
 
+          <div class="progress">
+            <span class="skill">3Ds Max<i class="val">80%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
         </div>
 
         <div class="col-lg-6">
+
+          <div class="progress">
+            <span class="skill">WordPress/CMS <i class="val">80%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
 
           <div class="progress">
             <span class="skill">Linux <i class="val">45%</i></span>
@@ -495,7 +508,7 @@
 
       </div>
 
-    </div><!-- Web development/Web Design Application-->
+    </div><!-- Web Development/Web Design Application-->
 
     <!-- ======= Microcontrollers  ======= -->
     <div class="skills container">
@@ -509,7 +522,19 @@
         <div class="col-lg-6">
 
           <div class="progress">
-            <span class="skill">Arduino <i class="val">40%</i></span>
+            <span class="skill">Arduino <i class="val">75%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="progress">
+            <span class="skill">Arduino Modules <i class="val">50%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="progress">
+            <span class="skill">Arduino Communication <i class="val">40%</i></span>
             <div class="progress-bar-wrap">
               <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
@@ -520,9 +545,21 @@
         <div class="col-lg-6">
 
           <div class="progress">
-            <span class="skill">Raspberry pi <i class="val">35%</i></span>
+            <span class="skill">Raspberry pi <i class="val">50%</i></span>
             <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
+              <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="progress">
+            <span class="skill">Raspberry pi Modules<i class="val">15%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="progress">
+            <span class="skill">Raspberry pi Communication<i class="val">23%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="23" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
           </div>
 
@@ -532,7 +569,13 @@
 
     </div><!-- Microcontrollers-->
 
-    <!-- ======= Interests ======= 
+    <!-- ======= Interests ======= -->
+    <!--Big: col-lg-3 col-md-4-->
+    <!--Small: col-lg-3 col-md-4 mt-4-->
+    <!--ri-bar-chart-box-line-->
+    <!--ri-calendar-todo-line-->
+    <!--ri-paint-brush-line-->
+    <!--ri-price-tag-2-line-->
     <div class="interests container">
 
       <div class="section-title">
@@ -540,76 +583,52 @@
       </div>
 
       <div class="row">
-        <div class="col-lg-3 col-md-4">
+        <div class="col-lg-3 col-md-4 mt-4">
           <div class="icon-box">
             <i class="ri-store-line" style="color: #ffbb2c;"></i>
-            <h3>Lorem Ipsum</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-          <div class="icon-box">
-            <i class="ri-bar-chart-box-line" style="color: #5578ff;"></i>
-            <h3>Dolor Sitema</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
-          <div class="icon-box">
-            <i class="ri-calendar-todo-line" style="color: #e80368;"></i>
-            <h3>Sed perspiciatis</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
-          <div class="icon-box">
-            <i class="ri-paint-brush-line" style="color: #e361ff;"></i>
-            <h3>Magni Dolores</h3>
+            <h3>Product Design</h3>
           </div>
         </div>
         <div class="col-lg-3 col-md-4 mt-4">
           <div class="icon-box">
             <i class="ri-database-2-line" style="color: #47aeff;"></i>
-            <h3>Nemo Enim</h3>
+            <h3>Engineering</h3>
           </div>
         </div>
         <div class="col-lg-3 col-md-4 mt-4">
           <div class="icon-box">
             <i class="ri-gradienter-line" style="color: #ffa76e;"></i>
-            <h3>Eiusmod Tempor</h3>
+            <h3>Data Pre-processing</h3>
           </div>
         </div>
         <div class="col-lg-3 col-md-4 mt-4">
           <div class="icon-box">
             <i class="ri-file-list-3-line" style="color: #11dbcf;"></i>
-            <h3>Midela Teren</h3>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-price-tag-2-line" style="color: #4233ff;"></i>
-            <h3>Pira Neve</h3>
+            <h3>Code Development</h3>
           </div>
         </div>
         <div class="col-lg-3 col-md-4 mt-4">
           <div class="icon-box">
             <i class="ri-anchor-line" style="color: #b2904f;"></i>
-            <h3>Dirada Pack</h3>
+            <h3>Automation Systems</h3>
           </div>
         </div>
         <div class="col-lg-3 col-md-4 mt-4">
           <div class="icon-box">
             <i class="ri-disc-line" style="color: #b20969;"></i>
-            <h3>Moton Ideal</h3>
+            <h3>Inovation</h3>
           </div>
         </div>
         <div class="col-lg-3 col-md-4 mt-4">
           <div class="icon-box">
             <i class="ri-base-station-line" style="color: #ff5828;"></i>
-            <h3>Verdo Park</h3>
+            <h3>ICT</h3>
           </div>
         </div>
         <div class="col-lg-3 col-md-4 mt-4">
           <div class="icon-box">
             <i class="ri-fingerprint-line" style="color: #29cc61;"></i>
-            <h3>Flavor Nivelanda</h3>
+            <h3>Robotic</h3>
           </div>
         </div>
       </div>
@@ -789,6 +808,20 @@
             </p>
           </div>
           <div class="resume-item">
+            <h4>3D Printing - 3D Modeling</h4>
+            <h5>Feb 2023 - Present</h5>
+            <p><em>Dynamiki OE, Thessaloniki, Greece</em></p>
+            <p>Courses:
+              <br>
+              <li>
+                We have seen all technologies where exists until today and
+                watch how to use some tools where we need for complete any
+                printing.
+              </li>
+              <br>
+            </p>
+          </div>
+          <div class="resume-item">
             <h4>Android Development</h4>
             <h5>Present - Present</h5>
             <p><em>Next Generation EU, -, Greece</em></p>
@@ -865,7 +898,7 @@
           <div class="resume-item">
             <h4>Fast Food Worker</h4>
             <h5>Sep 2022 - Oct 2022</h5>
-            <p><em>Chrisanthidis AE, Diavata, Thessaloniki, Greece</em></p>
+            <p><em>Chrisanthidis AE, Thessaloniki, Greece</em></p>
             <p>
             <ul>
               <li>I took the customer's orders and loaded them into their car and i selected and packed the foods.</li>
@@ -889,6 +922,8 @@
   </section><!-- End Resume Section -->
 
   <!-- ======= Services Section ======= -->
+  <!--Big: mt-4-->
+  <!--Small: mt-4 mt-md-0-->
   <section id="services" class="services">
     <div class="container">
 
@@ -898,6 +933,23 @@
       </div>
 
       <div class="row">
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-world"></i></div>
+            <h4><a href="">Web Page</a></h4>
+            <p>I can offer you a website where has the quality of view and accessibility</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-file"></i></div>
+            <h4><a href="">Teaching Services</a></h4>
+            <p>I can offer you advancing teaching about the code development.</p>
+            <p><small><em>This services offered only in Greek language and only Directly.</em></small></p>
+          </div>
+        </div>
+        <!--
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
           <div class="icon-box">
             <div class="icon"><i class="bx bxl-dribbble"></i></div>
@@ -906,27 +958,11 @@
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
-          <div class="icon-box">
-            <div class="icon"><i class="bx bx-file"></i></div>
-            <h4><a href="">Sed ut perspiciatis</a></h4>
-            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
-          </div>
-        </div>
-
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
           <div class="icon-box">
             <div class="icon"><i class="bx bx-tachometer"></i></div>
             <h4><a href="">Magni Dolores</a></h4>
             <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-          <div class="icon-box">
-            <div class="icon"><i class="bx bx-world"></i></div>
-            <h4><a href="">Nemo Enim</a></h4>
-            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
           </div>
         </div>
 
@@ -945,6 +981,7 @@
             <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
           </div>
         </div>
+        -->
 
       </div>
 
@@ -977,16 +1014,16 @@
           <div class="portfolio-wrap">
             <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>App 1</h4>
+              <h4>App Calculator</h4>
               <p>App</p>
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App Calculator"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.php?id=1" data-gallery="portfolioDetailsGallery" data-glightbox="type: external" class="portfolio-details-lightbox" title="Portfolio Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
         </div>
-
+        <!--
         <div class="col-lg-4 col-md-6 portfolio-item filter-web">
           <div class="portfolio-wrap">
             <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
@@ -1098,7 +1135,7 @@
             </div>
           </div>
         </div>
-
+        -->
       </div>
 
     </div>

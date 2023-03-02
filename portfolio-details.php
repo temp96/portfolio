@@ -1,3 +1,6 @@
+<?php
+  $id = trim($_REQUEST['id']);
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -26,13 +29,6 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: Personal - v4.10.0
-  * Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
@@ -46,21 +42,19 @@
         <div class="row">
 
           <div class="col-lg-8">
-            <h2 class="portfolio-title">This is an example of portfolio detail</h2>
+            <h2 class="portfolio-title">
+              <?php
+                if($id == 1){
+                  echo 'Calculation';
+                }
+              ?>
+            </h2>
 
             <div class="portfolio-details-slider swiper">
               <div class="swiper-wrapper align-items-center">
 
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/portfolio-details-1.jpg" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/portfolio-details-2.jpg" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/portfolio-details-3.jpg" alt="">
+                  <img src="assets/img/portfolio/portfolio-details-<?=$id?>.jpg" alt="Photo <?=$id?>">
                 </div>
 
               </div>
@@ -68,20 +62,29 @@
             </div>
 
           </div>
-
+          <?php
+            if($id == 1){            
+          ?>
           <div class="col-lg-4 portfolio-info">
             <h3>Project information</h3>
             <ul>
-              <li><strong>Category</strong>: Web design</li>
-              <li><strong>Client</strong>: ASU Company</li>
-              <li><strong>Project date</strong>: 01 March, 2020</li>
-              <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
+              <li><strong>Category</strong>: Application</li>
+              <li><strong>Client</strong>: Thanasis Papadopoulos</li>
+              <li><strong>Project date</strong>: 27 Feb, 2023</li>
+              <li><strong>Project URL</strong>: <a href="https://temp96.github.io/portfolio">Temp96</a></li>
             </ul>
 
             <p>
-              Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
+              This application is a simple calculation where supported at Androids and iPhones.
             </p>
+
+            <div class="qr">
+              <img src="assets/img/qr/qr-<?=$id?>.png" alt="Scan to Download">
+            </div>
           </div>
+          <?php
+            }
+          ?>
 
         </div>
 
@@ -91,11 +94,7 @@
   </main><!-- End #main -->
 
   <div class="credits">
-    <!-- All the links in the footer should remain intact. -->
-    <!-- You can delete the links only if you purchased the pro version. -->
-    <!-- Licensing information: https://bootstrapmade.com/license/ -->
-    <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/personal-free-resume-bootstrap-template/ -->
-    Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+    Designed and Developed by <a href="">Me</a>
   </div>
 
   <!-- Vendor JS Files -->
